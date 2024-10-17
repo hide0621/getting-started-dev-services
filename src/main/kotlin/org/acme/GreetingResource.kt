@@ -21,7 +21,7 @@ class GreetingResource {
         val greeting = Greeting()
         greeting.name = name
         /**
-         * persistメソッドは、エンティティ（今回は[Greeting]エンティティ）をデータベースに保存します。
+         * persistメソッドは、エンティティ（今回は[Greeting]エンティティ）をデータベース（今回はquarkusフレームワークがPostgreSQLのコンテナの作成、起動、停止を行っている）に保存します。
          * 新しいエンティティの場合は挿入操作を行い、既存のエンティティの場合は更新操作を行います。
          */
         greeting.persist()
