@@ -33,6 +33,12 @@ Kotlin + quarkusでPanacheEntityを用いたコードの書き方は以下を参
 
 上記のようなメソッドを使うには[このコミットの書き方を参考にする](https://github.com/hide0621/getting-started-dev-services/commit/11d4419780d024dfac4a7badb672fc7251c6d951)
 
+## application.propertiesについて
+
+Dev servicesを使わない場合はこのファイルに指定されたDBを使用することになる
+
+使い方については[このコミットを参照](https://github.com/hide0621/getting-started-dev-services/commit/fc6cae34c450b68a8753fb77cf03e2e38d81e5d1)
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
