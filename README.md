@@ -31,7 +31,7 @@ Kotlin + quarkusでPanacheEntityを用いたコードの書き方は以下を参
 
 メソッドの中には`PanacheEntity`クラスではなく`PanacheRepository`クラスを拡張している必要がある場合もある（その一つが`listAll`メソッド）
 
-上記のようなメソッドを使うには
+上記のようなメソッドを使うには[このコミットの書き方を参考にする](https://github.com/hide0621/getting-started-dev-services/commit/11d4419780d024dfac4a7badb672fc7251c6d951)
 
 ## Running the application in dev mode
 
