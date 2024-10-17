@@ -35,7 +35,7 @@ Kotlin + quarkusでPanacheEntityを用いたコードの書き方は以下を参
 
 ## application.propertiesについて
 
-Dev servicesを使わない場合はこのファイルに指定されたDBを使用することになる
+Dev services([このコミットを参照](https://github.com/hide0621/getting-started-dev-services/commit/fc6cae34c450b68a8753fb77cf03e2e38d81e5d1))を使わない場合はこのファイルに指定されたDBを使用することになる
 
 使い方については[このコミットを参照](https://github.com/hide0621/getting-started-dev-services/commit/fc6cae34c450b68a8753fb77cf03e2e38d81e5d1)
 
