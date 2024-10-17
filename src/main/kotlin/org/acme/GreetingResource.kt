@@ -23,6 +23,8 @@ class GreetingResource {
         /**
          * persistメソッドは、エンティティ（今回は[Greeting]エンティティ）をデータベース（今回はquarkusフレームワークがPostgreSQLのコンテナの作成、起動、停止を行っている）に保存します。
          * 新しいエンティティの場合は挿入操作を行い、既存のエンティティの場合は更新操作を行います。
+         *
+         * また、今回のようなDBの使われ方のことをquarkusでは「Dev Services」と言う。
          */
         greeting.persist()
         return "hello $name"
