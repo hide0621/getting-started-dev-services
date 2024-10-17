@@ -27,6 +27,12 @@ Kotlin + quarkusでPanacheEntityを用いたコードの書き方は以下を参
 
 [シンプルになったHibernate ORM with PanacheとKotlin](https://ja.quarkus.io/guides/hibernate-orm-panache-kotlin)
 
+## listAllメソッドを使うには
+
+メソッドの中には`PanacheEntity`クラスではなく`PanacheRepository`クラスを拡張している必要がある場合もある（その一つが`listAll`メソッド）
+
+上記のようなメソッドを使うには
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
