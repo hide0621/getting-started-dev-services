@@ -15,6 +15,18 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 `quarkus create app org.acme:getting-started-dev-services \
     --extension='rest' --kotlin --gradle`
 
+## PanacheEntityの導入方法
+
+以下のコマンドを使って依存先を注入（ただしquarkusのバージョンは**3.15.1**にあげておくこと）
+
+`quarkus extension add hibernate-orm-panache-kotlin jdbc-postgresql`
+
+その後、Android Studioの画面右上に表示されている**Gradleアイコン**（**左斜め下向きの矢印付きのもの**）をタップして、同期させる
+
+Kotlin + quarkusでPanacheEntityを用いたコードの書き方は以下を参照
+
+[シンプルになったHibernate ORM with PanacheとKotlin](https://ja.quarkus.io/guides/hibernate-orm-panache-kotlin)
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
